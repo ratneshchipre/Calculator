@@ -3,7 +3,7 @@ import React from 'react'
 const DisplayWindow = ({ expression, result }) => {
   return (
     <div className='w-full h-[12.5rem] bg-window p-[1.5rem] rounded-t-[0.8rem]'>
-      <div className='flex flex-col justify-between w-full h-full'>
+      <div className='flex flex-col justify-between w-full h-full overflow-hidden'>
         <h2 className='text-text text-2xl font-[550]'>Calculator</h2>
 
         <div className='flex flex-col self-end'>
